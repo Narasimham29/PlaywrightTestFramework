@@ -1,0 +1,8 @@
+Exception occured while clicking the myaccount page; Error: locator.click: Test ended.
+Call log:
+  - waiting for locator('a[title=\'My Account\']')
+
+Exception occured while clicking the loginPage page; Error: locator.click: Test ended.
+Call log:
+  - waiting for locator('//a[text()=\'Login\']')
+

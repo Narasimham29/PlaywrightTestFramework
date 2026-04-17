@@ -1,0 +1,12 @@
+Exception occured while clicking the myaccount page; Error: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('a[title=\'My Account\']')
+    2 × waiting for" https://tutorialsninja.com/demo/" navigation to finish...
+      - navigated to "https://tutorialsninja.com/demo/"
+
+Exception occured while clicking the loginPage page; Error: locator.click: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('//a[text()=\'Login\']')
+    - waiting for" https://tutorialsninja.com/demo/" navigation to finish...
+    - navigated to "https://tutorialsninja.com/demo/"
+
