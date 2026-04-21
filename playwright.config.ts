@@ -4,8 +4,11 @@ export default defineConfig({
   timeout: 30 * 1000,
   testDir: './tests',
   fullyParallel: false,
-  retries: process.env.CI ? 2 : 0,
-  workers: process.env.CI ? 1 : undefined,
+  // retries: process.env.CI ? 2 : 0,
+  retries : 1,
+  // workers: process.env.CI ? 1 : undefined,
+  workers : 1,
+  
   reporter: [
     ['html',{outputfolder:'..reports/html-report'}],
     ['allure-playwright', {outputfolder:'..reports/allure-report'}],

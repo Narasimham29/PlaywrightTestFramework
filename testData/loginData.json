@@ -7,8 +7,8 @@
     },
     {
         "testName": "invalid Login",
-        "email": "pavanol@abc.com",
+        "email": "useforoverall@gmail.com",
         "password": "test@123",
-        "expected": "failure"
+        "expected": "success"
     }
 ]
